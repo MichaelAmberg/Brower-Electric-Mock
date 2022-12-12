@@ -39,9 +39,10 @@ body {
 }
 
 .name {                                  /* image of company name */
-    position: absolute;
-    top: 20vh;
-    left: 35vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vh;
 }
 
 .logo {
@@ -67,9 +68,7 @@ body {
 }
 
 h5 {                              /* text below photo of company name on home page */
-    position: absolute;
-    top: 47vh;
-    left: 32vw;
+    text-align: center;
     color: white;
     text-shadow: 0.8px 0.8px lightblue;
 }
@@ -92,11 +91,9 @@ h1 {
 }
 
 footer {                   /* normal footer */
-    position: fixed;
-    bottom: 0;
-    left: 0;
+    position:sticky;
+    top: 100%;
     width: 100%;
-    display: block;
 }
 
 .portfooter {                /* footer for portfolio page */
@@ -141,8 +138,8 @@ summary {                         /* Portfolio page dropdown names */
 .row1 {                                     /* row for testimonials */
     padding-bottom: 1em;
     padding-left: 9em;
-    top: 60vh;
-    position: absolute;
+    top: 160vh;
+    padding-top: 5vh;
 }
 
 .row {
@@ -185,4 +182,3 @@ summary {                         /* Portfolio page dropdown names */
     margin-top: 20px;
     margin-left: 10vw;
   }
-
