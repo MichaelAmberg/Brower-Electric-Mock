@@ -1,0 +1,188 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#container1 {
+    min-height: 100%;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: darkblue;
+    display: inline-block;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
+    width: 120px; 
+    height: 30px; 
+    text-align: center;  
+    color: white;
+    font-size: 1.1rem;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+}
+
+.blue {
+    position: relative;
+}
+
+.name {                                  /* image of company name */
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+}
+
+.logo {
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.phone {
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 100px;
+}
+
+.logo {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+h5 {                              /* text below photo of company name on home page */
+    position: absolute;
+    top: 47vh;
+    left: 32vw;
+    color: white;
+    text-shadow: 0.8px 0.8px lightblue;
+}
+
+h6 {                       /* below main headers" */
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px;
+}
+
+.footer {                  /* text on footer */
+    color: white;
+    text-align: center;
+}
+
+footer {                   /* normal footer */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+.portfooter {                /* footer for portfolio page */
+    position: fixed;
+    bottom: 0;
+}
+
+.email {
+    margin-left: 105px;
+}
+
+.clock {
+    margin-left: 400px;
+    margin-right: 250px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+td {
+    color: white;
+    font-weight: bolder;
+}
+
+th {
+    color: red;
+    font-weight: bolder;
+}
+
+summary {                         /* Portfolio page dropdown names */
+    color: aqua;
+    padding-top: 1em;
+}
+
+.row1 {                                     /* row for testimonials */
+    padding-bottom: 1em;
+    padding-left: 9em;
+    top: 60vh;
+    position: absolute;
+}
+
+.row {
+    margin-left: 10vw;
+}
+
+/* 2 photos for testimonials */
+.column1 {
+    float: left;
+    width: 45%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 3em;
+    margin-left: 0;
+  }
+  
+  /* makes sure footer is below images */
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .testimonial {                   /* the testimonial on home page */
+    color: white;
+  }
+
+  .testimonialquoter {               /* the person who had the testimonial */
+    color: lightblue;
+    font-weight: bolder;
+    font-size: 0.85em;
+  }
+
+  .col-md-6 {
+    padding: 10px;
+    padding-bottom: 10px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    margin-left: 10vw;
+  }
+
