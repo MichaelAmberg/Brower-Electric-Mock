@@ -50,13 +50,6 @@ body {
     margin-right: 150px;
 }
 
-.phone {
-    color: red;
-    font-weight: bolder;
-    font-size: x-large;
-    margin-left: 100px;
-}
-
 .logo {
     margin-top: 0;
     margin-bottom: 0;
@@ -71,6 +64,7 @@ h5 {                              /* text below photo of company name on home pa
     text-align: center;
     color: white;
     text-shadow: 0.8px 0.8px lightblue;
+    padding-bottom: 10px;
 }
 
 h6 {                       /* below main headers" */
@@ -94,6 +88,7 @@ footer {                   /* normal footer */
     position:sticky;
     top: 100%;
     width: 100%;
+    padding-top: 50px;
 }
 
 .portfooter {                /* footer for portfolio page */
@@ -184,3 +179,79 @@ summary {                         /* Portfolio page dropdown names */
     margin-top: 20px;
     margin-left: 10vw;
   }
+
+
+.about {                                       /* about us paragraph */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.phone {
+    color: red;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+.card {
+    padding: 0;
+    display:block;
+}
+
+.card-title {                       /* names of employees */
+    color: darkblue;
+}
+
+.cards {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-sm-6 {
+    width: 33%;
+}
+
+.josh {
+    padding-left: 5vw;
+}
+
+#content1 {
+    padding-top: 100px;
+    
+}
+
+#content2 {
+    padding-top: 40px;   
+}
+
+label {
+    color: white;
+    padding-left: 225px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#myfile {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+    color: red;
+}
+
+.flex-container {                                 /* for clock, phone, calendar */
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 10vw;
+    padding-right: 20vw;
+    justify-content: space-evenly;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
