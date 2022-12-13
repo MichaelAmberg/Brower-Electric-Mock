@@ -97,8 +97,10 @@ footer {                   /* normal footer */
 }
 
 .portfooter {                /* footer for portfolio page */
-    position: fixed;
-    bottom: 0;
+    position: sticky;
+    top: 100%;
+    width: 100%;
+    padding-top: 26vh;
 }
 
 .email {
